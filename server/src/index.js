@@ -10,5 +10,5 @@ http
   .createServer(app)
   .listen(port, () => {
     connectLocalMongoDB();
-    console.log(`server listening on port ${port}`);
-  });
+    console.log(`Server running on ${ip.address()}:${port}`);
+  }); 

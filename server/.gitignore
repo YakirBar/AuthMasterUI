@@ -6,3 +6,6 @@
 # logic
 /src/core
 /src/database
+
+# keys
+/public/jwks.json
