@@ -1,10 +1,15 @@
+const signRoutes = require("./routes/sign.routes");
+const cookieParser = require("cookie-parser");
 const express = require("express");
-const path = require("path");
 const app = express();
 const port = 8000;
 
-app.use(express.static(path.join(__dirname, "../../public")));
+app.use(cookieParser());
 
-app.get("/", (request, response) => response.sendFile(path.join(__dirname, "../../public", "index.html")));
+app.use(express.json());
+
+app.use(express.static("public"));
+
+app.use(signRoutes);
 
 module.exports = { app, port };

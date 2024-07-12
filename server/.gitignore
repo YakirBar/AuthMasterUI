@@ -2,3 +2,7 @@
 
 # dependencies
 /node_modules
+
+# logic
+/src/core
+/src/database

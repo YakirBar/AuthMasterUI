@@ -1,0 +1,7 @@
+{
+    "material-icon-theme.folders.associations": {
+        "BCrypt": "guard",
+        "JSON_Web_Token": "../../../../../../Desktop/GitHub Repositories/AuthMasterUI/.vscode/svgs/JSON Web Token",
+        "JSON_Web_Key_set": "../../../../../../Desktop/GitHub Repositories/AuthMasterUI/.vscode/svgs/JSON Web Key Set"
+    }
+}
