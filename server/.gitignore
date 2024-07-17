@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# production
+/build
+
 # logic
 /src/core
 /src/database
